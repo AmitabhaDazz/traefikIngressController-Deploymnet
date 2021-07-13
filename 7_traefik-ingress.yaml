@@ -2,10 +2,10 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: traefik-web-ui
-  namespace: kube-system
+  namespace: ad-test
 spec:
   rules:
-  - host: amitabha.k8test
+  - host: amitabha.test
     http:
       paths:
       - path: /
